@@ -1,5 +1,14 @@
 #home {
     height: 95vh;
+    background-color: #E3BAB3;
+}
+
+h1, h2, h3, h4 {
+    color: #613A43;
+}
+
+nav {
+    background-color: #36384C;
 }
 
 #intro {
@@ -31,4 +40,9 @@
 
 .section {
     margin-top: 7em;
+}
+
+.projectCard {
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
