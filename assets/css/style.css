@@ -19,6 +19,16 @@
     opacity: .5;
 }
 
+#headshot {
+    border: 0;
+    padding: 0;
+    max-height: 50vh;
+}
+
 /* #about {
-    
+
 } */
+
+.section {
+    margin-top: 7em;
+}
