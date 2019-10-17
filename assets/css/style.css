@@ -1,0 +1,24 @@
+#home {
+    height: 95vh;
+}
+
+#intro {
+    padding-top: 35vh;
+}
+
+#intro h1 {
+    letter-spacing: .15em;
+}
+
+#navLogo {
+    margin-right: .5em;
+}
+
+#scrollIcon {
+    margin-top: 40vh;
+    opacity: .5;
+}
+
+/* #about {
+    
+} */
