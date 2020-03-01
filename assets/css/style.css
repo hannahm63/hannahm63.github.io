@@ -1,8 +1,29 @@
 #home {
-    height: 1070px;
     background-color: #7D98A1;
     position: relative;
 }
+
+a:link {
+    color: #1C2321;
+}
+
+/* visited link */
+
+/* a:visited {
+  color: green;
+} */
+
+/* mouse over link */
+
+a:hover {
+    color: #6E7371;
+}
+
+/* selected link */
+
+/* a:active {
+  color: blue;
+} */
 
 i {
     position: absolute;
@@ -24,12 +45,12 @@ h1, h2, h3 {
 }
 
 nav {
-    background-color: #1C2321;
-    color: #EEF1EF;
+    background-color: #fafafa !important;
+    color: #1C2321 !important;
 }
 
 #intro {
-    padding-top: 35vh;
+    padding: 150px 0px;
 }
 
 #intro h1 {
@@ -51,9 +72,9 @@ nav {
     max-height: 50vh;
 }
 
-/* #about {
-
-} */
+#about {
+    text-align: center;
+}
 
 .section {
     margin-top: 7em;
