@@ -1,4 +1,4 @@
-#home {
+.home {
     background-color: #7D98A1;
     position: relative;
 }
@@ -36,7 +36,7 @@ p {
 }
 
 hr {
-    color: #6B964C;
+    background-color: #6B964C;
 }
 
 h1, h2, h3, h4 {
@@ -92,4 +92,17 @@ nav {
     margin-top: 1em;
     margin-bottom: 1em;
     color: #1C2321;
+}
+
+#about p {
+    text-align: justify;
+}
+
+#about button {
+    text-align: center;
+}
+
+.hide {
+    display: none;
+    visibility: hidden;
 }
