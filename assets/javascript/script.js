@@ -15,6 +15,7 @@ $(document).ready(function () {
             console.log("about Page active");
             $("#homePage").addClass("hide");
             $("#projectsPage").addClass("hide");
+            $("#contactPage").addClass("hide");
             $("#aboutPage").removeClass("hide");
         };
 
@@ -22,11 +23,16 @@ $(document).ready(function () {
             console.log("project Page active");
             $("#homePage").addClass("hide");
             $("#aboutPage").addClass("hide");
+            $("#contactPage").addClass("hide");
             $("#projectsPage").removeClass("hide");
         };
 
         if (contactPage.hasClass("active")) {
             console.log("contact Page active");
+            $("#homePage").addClass("hide");
+            $("#aboutPage").addClass("hide");
+            $("#projectsPage").addClass("hide");
+            $("#contactPage").removeClass("hide");
         };
 
     });
@@ -39,6 +45,7 @@ $(document).ready(function () {
 
         $("#aboutPage").addClass("hide");
         $("#projectsPage").addClass("hide");
+        $("#contactPage").addClass("hide");
         $("#homePage").removeClass("hide");
     });
 

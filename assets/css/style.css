@@ -16,7 +16,7 @@ a:link {
 /* mouse over link */
 
 a:hover {
-    color: #6E7371;
+    color: #6B964C;
 }
 
 /* selected link */
@@ -91,6 +91,11 @@ nav {
     margin: 50px 0px;
 }
 
+/* #contactInfo {
+    padding: 30px 50px 30px 30px;
+    border: 2px solid #6B964C;
+} */
+
 .section {
     margin-top: 7em;
 }
@@ -121,4 +126,9 @@ nav {
 
 .projectCard {
     text-align: center;
+}
+
+#contactPage {
+    text-align: justify;
+    margin-bottom: 150px;
 }
