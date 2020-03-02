@@ -28,6 +28,7 @@ a:hover {
 i {
     position: absolute;
     margin-bottom: 20px;
+    color: #6B964C;
 }
 
 p {
@@ -115,6 +116,7 @@ nav {
 
 #projectsPage {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .projectCard {
