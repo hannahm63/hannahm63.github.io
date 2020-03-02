@@ -1,5 +1,14 @@
 var projects = [
     {
+        title: "Casino S.H.I.C.",
+        description: "Lacus sed turpis tincidunt id aliquet risus feugiat in ante. Mi tempus imperdiet nulla malesuada.",
+        deployedLink: "https://casino-shic.herokuapp.com/",
+        repoLink: "https://github.com/cchitla/casino-shic",
+        image: "https://via.placeholder.com/300",
+        imageAlt: "",
+        techUsed: ["React", "React Hooks", "JavaScript", "JSX", "Node.js", "Express", "Axios", "MongoDB", "Mongoose", "Socket.io", "Auth0"]
+    },
+    {
         title: "GameOn",
         description: "Lacus sed turpis tincidunt id aliquet risus feugiat in ante. Mi tempus imperdiet nulla malesuada.",
         deployedLink: "https://game-on3.herokuapp.com/",
