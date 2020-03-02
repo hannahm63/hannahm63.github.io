@@ -30,7 +30,7 @@ i {
     margin-bottom: 20px;
 }
 
-p, h4 {
+p {
     font-family: 'Open Sans', sans-serif;
     color: #1C2321;
 }
@@ -39,9 +39,10 @@ hr {
     color: #6B964C;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Baskervville', serif;
     color: #1C2321;
+    text-align: center;
 }
 
 nav {
@@ -72,8 +73,15 @@ nav {
     max-height: 50vh;
 }
 
-#about {
+#professionalSummary {
     text-align: center;
+}
+
+#projectHighlights {
+    text-align: center;
+    padding: 30px 0px;
+    border: 2px solid #6B964C;
+    margin: 50px 0px;
 }
 
 .section {

@@ -11,6 +11,10 @@ $(document).ready(function () {
         },
             'slow');
 
-    })
+    });
+
+    $("#viewResume").on("click", function () {
+        window.open("./assets/pdf/Hannah_Melton_Resume.pdf");
+    });
 
 });
